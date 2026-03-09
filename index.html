@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>CS Dept | Absentee Pro Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="app-header">
+        <div class="header-container">
+            <div class="brand">
+                <h1>CS Department Portal</h1>
+                <p id="advDisplay">Advisor: Select Class Section</p>
+            </div>
+            <div id="liveDate" class="date-badge"></div>
+        </div>
+    </header>
+
+    <main class="main-layout">
+        
+        <aside class="sidebar card">
+            <div class="sidebar-top">
+                <div class="form-group">
+                    <label for="clsPicker">Select Class Section</label>
+                    <select id="clsPicker" class="form-control" onchange="App.loadClass()">
+                        </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="searchBox">Search Name or Roll No</label>
+                    <input type="text" id="searchBox" class="form-control" placeholder="🔍 Start typing..." oninput="App.renderList()">
+                </div>
+
+                <div class="selection-tools">
+                    <button class="tool-btn" onclick="App.selectAll(true)">All</button>
+                    <button class="tool-btn" onclick="App.selectAll(false)">None</button>
+                    <button class="tool-btn highlight" onclick="App.invertSelection()">Invert</button>
+                </div>
+            </div>
+
+            <div class="stats-row">
+                <div class="stat-item">
+                    <small>Class Strength</small>
+                    <div id="totalStrength" class="stat-val">0</div>
+                </div>
+                <div class="stat-item">
+                    <small>Selected Absentees</small>
+                    <div id="selCount" class="stat-val danger">0</div>
+                </div>
+            </div>
+
+            <div class="list-container">
+                <div id="studentList" class="student-list">
+                    </div>
+            </div>
+        </aside>
+
+        <section class="content-area">
+            <div class="card preview-card">
+                <div class="preview-header">
+                    <span class="section-title">WhatsApp Report Preview</span>
+                    <button class="btn btn-copy" onclick="App.copyText()">
+                        <span>📋</span> Copy Message
+                    </button>
+                </div>
+
+                <textarea id="msgBox" readonly placeholder="Mark absentees from the sidebar to generate the bilingual report here..."></textarea>
+                
+                <div class="action-footer">
+                    <div class="tip-box">
+                        <strong>Advisor Mode:</strong> The report identifies the Class Advisor and total strength automatically.
+                    </div>
+                    <button class="btn btn-whatsapp" onclick="App.openWhatsApp()">
+                        <span>📩</span> Send via WhatsApp Web
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

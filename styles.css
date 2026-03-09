@@ -1,0 +1,183 @@
+/* CS DEPT PORTAL - PROFESSIONAL DESIGN SYSTEM */
+:root {
+    --primary: #075E54;    /* WhatsApp Deep Teal */
+    --secondary: #128C7E;  /* Admin Teal */
+    --accent: #25D366;     /* Success Green */
+    --danger: #e53935;     /* Alert Red */
+    --bg: #f0f2f5;         /* Workspace Gray */
+    --white: #ffffff;
+    --border: #e2e8f0;
+}
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Lock height to prevent page scrolling */
+    overflow: hidden; 
+}
+
+/* HEADER AREA */
+.app-header {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 12px 25px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.header-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand h1 { margin: 0; font-size: 1.25rem; font-weight: 700; }
+.brand p { margin: 0; font-size: 0.8rem; color: var(--accent); font-weight: 600; }
+
+.date-badge {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+/* MAIN DASHBOARD LAYOUT */
+.main-layout {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1600px;
+    margin: 0 auto;
+    flex: 1;
+    width: 100%;
+    overflow: hidden; /* Panels will have internal scrolls */
+}
+
+.card {
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* SIDEBAR: STICKY CONTROLS */
+.sidebar-top { padding: 15px 20px; border-bottom: 1px solid #f1f5f9; background: #fff; }
+.form-group { margin-bottom: 12px; }
+.form-group label { display: block; font-size: 0.75rem; font-weight: 800; color: #64748b; text-transform: uppercase; margin-bottom: 5px; }
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 0.95rem;
+    background: #f8fafc;
+}
+
+.selection-tools {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tool-btn {
+    background: #ffffff;
+    border: 1px solid var(--border);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.tool-btn:hover { background: #f1f5f9; }
+.tool-btn.highlight { background: #eff6ff; border-color: #bfdbfe; color: #1e40af; }
+
+/* STRENGTH & STATS FEATURE STYLE */
+.stats-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #f8fafc;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.stat-item {
+    padding: 12px;
+    text-align: center;
+    border-right: 1px solid #e2e8f0;
+}
+
+.stat-item small { display: block; font-size: 0.65rem; font-weight: 700; color: #64748b; text-transform: uppercase; }
+.stat-val { font-size: 1.25rem; font-weight: 800; color: #1e293b; }
+.stat-val.danger { color: var(--danger); }
+
+/* STUDENT LIST SCROLLER */
+.list-container {
+    flex: 1;
+    overflow-y: auto;
+    background: #fff;
+}
+
+/* Custom Thin Scroller */
+.list-container::-webkit-scrollbar { width: 6px; }
+.list-container::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+
+.std-row {
+    display: flex;
+    align-items: center;
+    padding: 14px 20px;
+    border-bottom: 1px solid #f1f5f9;
+    cursor: pointer;
+}
+.std-row:hover { background: #f0f9f6; }
+.std-row input { width: 20px; height: 20px; margin-right: 18px; accent-color: var(--secondary); }
+
+/* PREVIEW AREA */
+.preview-card { padding: 25px; height: 100%; }
+.preview-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+
+#msgBox {
+    flex: 1; /* Maximizes the report height */
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 1rem;
+    line-height: 1.7;
+    background: #fffcf5; /* Eye-friendly tint */
+    color: #1e293b;
+    resize: none;
+}
+
+.btn-whatsapp { 
+    background: var(--accent); 
+    color: white; 
+    border: none;
+    padding: 16px; 
+    font-size: 1.1rem; 
+    width: 100%;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 1100px) {
+    body { overflow-y: auto; }
+    .main-layout { grid-template-columns: 1fr; height: auto; overflow: visible; }
+    .card { height: 500px; margin-bottom: 20px; }
+    #msgBox { min-height: 400px; }
+}
