@@ -58,7 +58,7 @@ const Database = {
       "25BAR055": "GOKULRAM S"
     }
   },
-  "II B.Sc. CS with AI": {
+  "III B.Sc. CS with AI": {
     "advisor": "Dr. P. Sukumar",
     "students": {
       "24BAR001": "SHAKRUDEEN M",
@@ -98,7 +98,7 @@ const Database = {
       "24BAR041": "SWETHA K"
     }
   },
-  "I B.Sc. CS": {
+  "II B.Sc. CS": {
     "advisor": "Ms. J. Gokulapriya",
     "students": {
       "25BCS004": "VISHNU M",
@@ -152,7 +152,7 @@ const Database = {
       "25BCS063": "MOHANNED MOHAMED ELHASAN"
     }
   },
-  "II B.Sc. CS": {
+  "III B.Sc. CS": {
     "advisor": "Ms.R.Parameswari",
     "students": {
       "24BCS001": "AJITHKUMAR B",
@@ -209,66 +209,17 @@ const Database = {
     }
   },
   "III B.Sc. CS": {
-    "advisor": "Dr. R. Manimegalai",
+    "advisor": "",
     "students": {
       "23BCS101": "NAMITHRA SRI P",
       "23BCS102": "SARBESHWARAN A",
       "23BCS103": "VINITH MATHEW R",
       "23BCS105": "SHAFIQ AHAMED A",
       "23BCS106": "SUDHARSHAN M",
-      "23BCS107": "RAHANISH",
-      "23BCS108": "UDHAYA VITHAL KADAM",
-      "23BCS109": "LOKITH P",
-      "23BCS110": "NITHYA SRI A S",
-      "23BCS111": "TAMILMANI K",
-      "23BCS112": "GOKUL D",
-      "23BCS113": "PRATHAP R",
-      "23BCS114": "DINESH BABU K",
-      "23BCS115": "JERUSHA VERONICA",
-      "23BCS116": "VEERAKUMAR R",
-      "23BCS117": "SELVAMEENA",
-      "23BCS118": "SAKTHIVEL B",
-      "23BCS119": "NAVEEN S A",
-      "23BCS120": "BARATHRAJ M J",
-      "23BCS121": "PRASANTH",
-      "23BCS122": "MANIKANDAN V",
-      "23BCS123": "DINESH",
-      "23BCS124": "SRI HARINI R",
-      "23BCS126": "VISHWANATH M",
-      "23BCS127": "SARAN R",
-      "23BCS128": "LENIN",
-      "23BCS129": "PRIYADHARSHAN B",
-      "23BCS130": "RAHUL U",
-      "23BCS131": "GOWTHAM M",
-      "23BCS132": "GOPIKA R",
-      "23BCS133": "AQIL TAQQY A",
-      "23BCS134": "AROKIASELVAN",
-      "23BCS135": "SHIVA GURU",
-      "23BCS136": "GOWRISH",
-      "23BCS137": "BOOPATHI A",
-      "23BCS138": "DHAKSHINA MOORTHY",
-      "23BCS139": "THARANIYA LAKSHMI R",
-      "23BCS140": "ARASU R",
-      "23BCS141": "GURU G",
-      "23BCS142": "MOHAN",
-      "23BCS143": "JAIDEV S",
-      "23BCS144": "ABHISHEK KRISHNAN A S",
-      "23BCS146": "REVATHI S",
-      "23BCS147": "SURESH R",
-      "23BCS148": "SANJAY V",
-      "23BCS149": "SAMRAJ S A",
-      "23BCS150": "MADESH",
-      "23BCS152": "BALA PRAVEEN B",
-      "23BCS153": "PANDI SELVAM R",
-      "23BCS155": "MAYOORI B",
-      "23BCS156": "VIDHUN APOORVAN K",
-      "23BCS158": "SUJETH KUMAR K",
-      "23BCS159": "DEEPALIKA R",
-      "23BCS160": "SAURAV V NAIR",
       "23BCS161": "ANBARASU S"
     }
   },
-  "II B.Sc. CT": {
+  "III B.Sc. CT": {
     "advisor": "Ms. N. Sukanya",
     "students": {
       "24BCT001": "CHIRANJEEVI M R",
@@ -323,8 +274,8 @@ const Database = {
       "24BCT133": "SAI SAKTHI R K"
     }
   },
-  "I M.Sc. CS": {
-    "advisor": "Ms. Sukanya.C.K",
+  "II M.Sc. CS": {
+    "advisor": "Dr. R. Manimegalai",
     "students": {
       "25MCS001": "ANANDHAN K",
       "25MCS002": "KIFAYA K",
