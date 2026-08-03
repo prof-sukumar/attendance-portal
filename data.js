@@ -6,7 +6,7 @@
 
 const Database = {
   "I B.Sc CS with AI": {
-    "advisor": "Dr. S. Karthikeyan",
+    "advisor": "Dr. S.P. SOUNDARIYA",
     "students": {
       "25BAR001": "MANIKANDAN A",
       "25BAR002": "ABHINANDHANA M",
