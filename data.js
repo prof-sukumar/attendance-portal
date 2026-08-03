@@ -99,7 +99,7 @@ const Database = {
     }
   },
   "II B.Sc. CS": {
-    "advisor": "Ms. J. Gokulapriya",
+    "advisor": "Dr. C. Vanitha",
     "students": {
       "25BCS004": "VISHNU M",
       "25BCS005": "HARI KOWSIK E",
@@ -153,7 +153,7 @@ const Database = {
     }
   },
   "III B.Sc. CS": {
-    "advisor": "Ms.R.Parameswari",
+    "advisor": "Dr.R.Parameswari",
     "students": {
       "24BCS001": "AJITHKUMAR B",
       "24BCS005": "HARSHINI R",
@@ -208,7 +208,6 @@ const Database = {
       "24BCS059": "ARJUN P"
     }
   },
-
   "III B.Sc. CT": {
     "advisor": "Ms. N. Sukanya",
     "students": {
@@ -288,8 +287,7 @@ const Database = {
       "25MCS027": "MANJU M",
       "25MCS028": "CHINMAYAN V"
     }
- 
- 
+
 };
 
 const TamilNames = {
