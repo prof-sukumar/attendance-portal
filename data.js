@@ -208,17 +208,7 @@ const Database = {
       "24BCS059": "ARJUN P"
     }
   },
-  "III B.Sc. CS": {
-    "advisor": "",
-    "students": {
-      "23BCS101": "NAMITHRA SRI P",
-      "23BCS102": "SARBESHWARAN A",
-      "23BCS103": "VINITH MATHEW R",
-      "23BCS105": "SHAFIQ AHAMED A",
-      "23BCS106": "SUDHARSHAN M",
-      "23BCS161": "ANBARASU S"
-    }
-  },
+
   "III B.Sc. CT": {
     "advisor": "Ms. N. Sukanya",
     "students": {
@@ -298,83 +288,8 @@ const Database = {
       "25MCS027": "MANJU M",
       "25MCS028": "CHINMAYAN V"
     }
-  },
-  "II M.Sc. CS": {
-    "advisor": "Dr. A. Uthiramoorthy",
-    "students": {
-      "24MCS101": "MADHAN M",
-      "24MCS102": "GOMATHI S",
-      "24MCS105": "ANASWARA ANIL",
-      "24MCS106": "ARIKARAN P",
-      "24MCS107": "MAZIN SHAMBATI",
-      "24MCS108": "RITHISHA P",
-      "24MCS109": "ISWARYA K",
-      "24MCS111": "LYDIA MALARSINGH D",
-      "24MCS112": "THAMARAISELVAN. M",
-      "24MCS113": "DHARANIDARAN S",
-      "24MCS114": "ANISH KUMAR S",
-      "24MCS115": "ARUNAGIRI N",
-      "24MCS116": "VIGNESH KANNAN P",
-      "24MCS119": "AARTHIKA SIVAKUMAR"
-    }
-  },
-  "III B.Sc. CT": {
-    "advisor": "Dr. M. Kathiresh",
-    "students": {
-      "23BCT001": "SAFIQ S",
-      "23BCT002": "ASWIN S",
-      "23BCT003": "ELAKIYA N",
-      "23BCT004": "RAVISANKAR V",
-      "23BCT005": "KEERTHANA S",
-      "23BCT006": "MADHUSHRI K A",
-      "23BCT007": "MANUSH G",
-      "23BCT008": "DINESH KUMAR M",
-      "23BCT009": "PREM KUMAR A",
-      "23BCT010": "DHEERAJ K P",
-      "23BCT013": "ASWIHA K M",
-      "23BCT014": "SUVETHA SRI V",
-      "23BCT015": "ABDUL THOWFIK A",
-      "23BCT016": "PRINEETH M",
-      "23BCT017": "SHANMUGAPRIYA G K",
-      "23BCT018": "HARINI SRIE S S",
-      "23BCT019": "AMZATH A",
-      "23BCT021": "SIVAGANESH G",
-      "23BCT024": "R MYVIKRAM",
-      "23BCT025": "DHARANISHKUMAR M J",
-      "23BCT027": "BHUVANESHWARI S",
-      "23BCT028": "UBAIS F",
-      "23BCT029": "HARIVARTTHAN K",
-      "23BCT030": "PRASANNA V",
-      "23BCT031": "DHARSHINI N",
-      "23BCT032": "VISHNU A",
-      "23BCT033": "BHARATHRAJ A",
-      "23BCT034": "THARUN M J",
-      "23BCT035": "JISHORE M",
-      "23BCT036": "MAYUR P",
-      "23BCT037": "NISHA K",
-      "23BCT038": "PRABAKARAN S",
-      "23BCT039": "MOHAMMED IRFAN S",
-      "23BCT040": "KARTHICK D",
-      "23BCT041": "MADHUMITHA S",
-      "23BCT042": "KONDEPUDI MEENAKSHI",
-      "23BCT043": "PRAVEEN S",
-      "23BCT044": "SIVARANJANI M",
-      "23BCT045": "ABHINAYESWARI C",
-      "23BCT046": "RUTHRAMOORTHI K J",
-      "23BCT048": "LINGA DURAI B",
-      "23BCT049": "LIEJO S",
-      "23BCT050": "SUBASRI M",
-      "23BCT051": "SABARI VARUN R",
-      "23BCT052": "MOHAMMED SHAMIL A",
-      "23BCT053": "PRAVEEN R",
-      "23BCT054": "GOWTHAMAN S",
-      "23BCT056": "AKASH R",
-      "23BCT058": "SIVA PANDIAN M",
-      "23BCT059": "SIVASRITHAR K",
-      "23BCT060": "MOHAMMED YUSUF M",
-      "23BCT061": "HARISHANKAR A"
-    }
-  }
+ 
+ 
 };
 
 const TamilNames = {
