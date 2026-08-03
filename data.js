@@ -5,6 +5,14 @@
  */
 
 const Database = {
+  "I B.Sc CS with AI": {
+    "advisor": "",
+    "students": {},
+    
+  "I B.Sc CS": {
+  "advisor": "",
+  "students": {}, 
+    
   "II B.Sc CS with AI": {
     "advisor": "Dr. S.P. SOUNDARIYA",
     "students": {
