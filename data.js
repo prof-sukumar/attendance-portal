@@ -7,11 +7,13 @@
 const Database = {
   "I B.Sc CS with AI": {
     "advisor": "",
-    "students": {},
+    "students": {}
+  },
     
   "I B.Sc CS": {
   "advisor": "",
-  "students": {}, 
+  "students": {}
+  }, 
     
   "II B.Sc CS with AI": {
     "advisor": "Dr. S.P. SOUNDARIYA",
@@ -295,8 +297,8 @@ const Database = {
       "25MCS027": "MANJU M",
       "25MCS028": "CHINMAYAN V"
     }
-
-};
+    }
+  };
 
 const TamilNames = {
   "MANIKANDAN A": "மணிகண்டன் A",
